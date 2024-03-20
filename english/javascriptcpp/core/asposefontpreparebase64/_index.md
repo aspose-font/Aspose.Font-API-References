@@ -5,7 +5,7 @@ description:  "Save the string representation BLOB in the Memory FS for processi
 type: docs
 url: /javascriptcpp/core/asposefontpreparebase64/
 ---
-
+## AsposeFontPrepareBase64 function
 _Save the string representation BLOB in the Memory FS for processing._
 
 ```js
@@ -20,8 +20,10 @@ function AsposeFontPrepareBase64(
 * **base64Blob** string representation Blob object, with format "data:mime/type;base64,...", where 'mime/type': image/png, application/octet-stream, ...
 * **fileName** file name 
 
+### Remarks
+**AsposeFontPrepareBase64** doesn't work in Web Worker mode, use AsposeFontPrepare
 
-**Web Worker example:** doesn't work, use AsposeFontPrepare
+### Examples
 ```js
   const test_pfx = "data:application/octet-stream;base64,MIIEcQIBAzCCBDcGCSqGSIb ... ==";
   /*Create Web Worker*/
@@ -51,18 +53,13 @@ function AsposeFontPrepareBase64(
 ```
 **Simple example**:
 ```js
-  var ffileSignPKCS7 = function (e) {
+  var ffileBase64 = function (e) {
     const test_pfx = "data:application/octet-stream;base64,MIIEcQIBAzCCBDcGCSqGSIb ... ==";
     /*Save the string representation BLOB in the Memory FS for processing*/
     AsposeFontPrepareBase64(test_pfx,"test.pfx");
     const file_reader = new FileReader();
     file_reader.onload = (event) => {
-      /*Sign a Font-file and save the "ResultSignPKCS7.Font"*/
-      const json = AsposeFontSignPKCS7(event.target.result, e.target.files[0].name, 1, "test.pfx", "Password", 100, 100, 200, 100, "Reason", "Contact", "Location", 1, "/Aspose.jpg","ResultSignPKCS7.Font");
-      if (json.errorCode == 0) document.getElementById('output').textContent = json.fileNameResult;
-      else document.getElementById('output').textContent = json.errorText;
-      /*Make a link to download the result file*/
-      DownloadFile(json.fileNameResult, "application/Font");
+      DownloadFile('test_pfx', "application/Font");
     };
     file_reader.readAsArrayBuffer(e.target.files[0]);
   };

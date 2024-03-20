@@ -5,6 +5,7 @@ description: "Get info (metadata) from a Font-file."
 type: docs
 url: /javascriptcpp/metadata/asposefontgetinfo/
 ---
+## AsposeFontGetInfo function
 
 _Get info (metadata) from a Font-file._
 

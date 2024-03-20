@@ -11,6 +11,7 @@ url: /javascriptcpp/metadata/
 |      Name      |  Description   |
 | -------------- | -------------- |
 | [AsposeFontGetInfo](./asposefontgetinfo/) | Get info (metadata) from a Font-file. |
+| [AsposeFontSetInfo](./asposefontsetinfo/) | Set info (metadata) into a Font-file. |
 
 ## Detailed Description
 

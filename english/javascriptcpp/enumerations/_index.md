@@ -12,6 +12,13 @@ url: /javascriptcpp/enumerations/
 | ----------- | ----------- |
 | [FontSavingFormats](./fontsavingformats/) | Specifies Font type. |
 | [FontType](./fonttype/) | Specifies Font type. |
+| [TtfNameTableNameId](./ttfnametablenameid/) | Specifies NameId. |
+| [TtfNameTablePlatformId](./ttfnametableplatformid/) | Represents PlatformId enumeration. |
+| [TtfNameTableMSPlatformSpecificId](./ttfnametableMSPlatformSpecificId/) | Represents MSPlatformSpecificId enumeration. |
+| [TtfNameTableMacPlatformSpecificId](./ttfnametableMacPlatformSpecificId/) | Represents MacPlatformSpecificId enumeration. |
+| [TtfNameTableUnicodePlatformSpecificId](./ttfnametableUnicodePlatformSpecificId/) | Represents UnicodePlatformSpecificId enumeration. |
+| [TtfNameTableMacLanguageId](./ttfnametablemaclanguageid/) | Macintosh platform language id enumeration. |
+| [TtfNameTableMSLanguageId](./ttfnametablemslanguageid/) | Microsoft platform language id enumeration. |
 
 ```js
 /* Web Worker*/

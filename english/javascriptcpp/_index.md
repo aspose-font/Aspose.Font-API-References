@@ -29,8 +29,8 @@ is_root: true
 
 | Function | Description |
 | -------- | ----------- |
-| [AsposeFontGetInfo](./metadata/asposeFontgetinfo/) | Get info (metadata) from a Font-file. |
-| [AsposeFontSetInfo](./metadata/asposeFontsetinfo/) | Set info (metadata) in a Font-file. |
+| [AsposeFontGetInfo](./metadata/asposefontgetinfo/) | Get info (metadata) from a Font-file. |
+| [AsposeFontSetInfo](./metadata/asposefontsetinfo/) | Set info (metadata) in a Font-file. |
 
 
 ## Core Functions
@@ -53,6 +53,12 @@ is_root: true
 
 | Enumeration | Description |
 | ----------- | ----------- |
-| [FontSavingFormats](./fontsavingformats/) | Specifies Font type. |
-| [FontStyle](./fontstyle/) | Specifies Font style. |
-| [FontType](./fonttype/) | Specifies Font type. |
+| [FontSavingFormats](./enumerations/fontsavingformats/) | Specifies Font type. |
+| [FontStyle](./enumerations/fontstyle/) | Specifies Font style. |
+| [TtfNameTableNameId](./enumerations/ttfnametablenameid/) | Specifies NameId. |
+| [TtfNameTablePlatformId](./enumerations/ttfnametableplatformid/) | Represents PlatformId enumeration. |
+| [TtfNameTableMacPlatformSpecificId](./enumerations/ttfnametablemacplatformspecificid/) | Represents Macintosh platform specific id enumeration. |
+| [TtfNameTableMSPlatformSpecificId](./enumerations/ttfnametablemsplatformspecificid/) | Represents Microsoft platform specific id enumeration. |
+| [TtfNameTableUnicodePlatformSpecificId](./enumerations/ttfnametableunicodeplatformspecificid/) | Represents Unicode platform specific id enumeration. |
+| [TtfNameTableMacLanguageId](./enumerations/ttfnametablemaclanguageid/) | MacLanguageId enumeration. |
+| [TtfNameTableMSLanguageId](./enumerations/ttfnametablemslanguageid/) | MSLanguageId enumeration. |
