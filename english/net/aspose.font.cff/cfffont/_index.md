@@ -18,6 +18,7 @@ public class CffFont : Font
 
 | Name | Description |
 | --- | --- |
+| [CommonFontsSettings](../../aspose.font.cff/cfffont/commonfontssettings/) { get; set; } | Gets/sets settings common to CFF fonts. These settings are used in different scenarios and can be changed for each individual font. |
 | override [Encoding](../../aspose.font.cff/cfffont/encoding/) { get; } | Gets Font encoding. |
 | override [FontDefinition](../../aspose.font.cff/cfffont/fontdefinition/) { get; } | Gets Font definition. |
 | override [FontFamily](../../aspose.font.cff/cfffont/fontfamily/) { get; set; } | Gets Font family. The Font family setter is not implemented yet. |
@@ -33,6 +34,7 @@ public class CffFont : Font
 | override [NumGlyphs](../../aspose.font.cff/cfffont/numglyphs/) { get; } | Gets number of glyphs in the Font. |
 | override [PostscriptNames](../../aspose.font.cff/cfffont/postscriptnames/) { get; } | Gets postscript Font names. |
 | override [Style](../../aspose.font.cff/cfffont/style/) { get; set; } | Gets or sets Font style. This is a raw string value provided by Font file. |
+| [TopDictDataProvider](../../aspose.font.cff/cfffont/topdictdataprovider/) { get; } | Gets accessor for the first top-level DICT in Top DICT INDEX structure. |
 
 ## Methods
 
@@ -44,6 +46,7 @@ public class CffFont : Font
 | [GetGlyphById](../../aspose.font.cff/cfffont/getglyphbyid/#getglyphbyid_1)(string) | Returns glyph by glyph name. |
 | [GetGlyphById](../../aspose.font.cff/cfffont/getglyphbyid/#getglyphbyid_2)(uint) | Returns glyph by glyph id. |
 | virtual [GetGlyphsForText](../../aspose.font/font/getglyphsfortext/)(string) | Gets glyphs representation for text. |
+| [GetIndexDataProvider](../../aspose.font.cff/cfffont/getindexdataprovider/)(CffIndexProviderType) | Gets provider for the specified CFF INDEX structure type. |
 | virtual [Save](../../aspose.font/font/save/)(Stream) | Saves the Font into original format. |
 | virtual [Save](../../aspose.font/font/save/)(string) | Saves the Font into original format. |
 | [SaveToFormat](../../aspose.font/font/savetoformat/)(Stream, FontSavingFormats) | Saves the Font into format specified. |
