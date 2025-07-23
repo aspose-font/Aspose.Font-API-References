@@ -1,25 +1,25 @@
 ---
-title: FontException
+title: FontMergeException
 second_title: Aspose.Font for Java API Reference
-description: Represents common Font processing related exception.
+description: Represents Font merge exception.
 type: docs
-weight: 39
-url: /java/com.aspose.font/fontexception/
+weight: 42
+url: /java/com.aspose.font/fontmergeexception/
 ---
 **Inheritance:**
-java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, java.lang.IllegalStateException
+java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, java.lang.IllegalStateException, [com.aspose.font.FontException](../../com.aspose.font/fontexception)
 ```
-public class FontException extends IllegalStateException
+public class FontMergeException extends FontException
 ```
 
-Represents common Font processing related exception.
+Represents Font merge exception. The exception may be thrown in case of errors while merging fonts.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FontException()](#FontException--) | Initializes new  FontException  object. |
-| [FontException(String message)](#FontException-java.lang.String-) | Initializes new  FontException  object. |
-| [FontException(String message, RuntimeException innerException)](#FontException-java.lang.String-java.lang.RuntimeException-) | Initializes new  FontException  object. |
+| [FontMergeException()](#FontMergeException--) | Initializes new  FontMergeException  object. |
+| [FontMergeException(String message)](#FontMergeException-java.lang.String-) | Initializes new  FontMergeException  object. |
+| [FontMergeException(String message, RuntimeException innerException)](#FontMergeException-java.lang.String-java.lang.RuntimeException-) | Initializes new  FontMergeException  object. |
 ## Methods
 
 | Method | Description |
@@ -45,34 +45,34 @@ Represents common Font processing related exception.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### FontException() {#FontException--}
+### FontMergeException() {#FontMergeException--}
 ```
-public FontException()
-```
-
-
-Initializes new  FontException  object.
-
-### FontException(String message) {#FontException-java.lang.String-}
-```
-public FontException(String message)
+public FontMergeException()
 ```
 
 
-Initializes new  FontException  object.
+Initializes new  FontMergeException  object.
+
+### FontMergeException(String message) {#FontMergeException-java.lang.String-}
+```
+public FontMergeException(String message)
+```
+
+
+Initializes new  FontMergeException  object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | message | java.lang.String | A message that describes the error. |
 
-### FontException(String message, RuntimeException innerException) {#FontException-java.lang.String-java.lang.RuntimeException-}
+### FontMergeException(String message, RuntimeException innerException) {#FontMergeException-java.lang.String-java.lang.RuntimeException-}
 ```
-public FontException(String message, RuntimeException innerException)
+public FontMergeException(String message, RuntimeException innerException)
 ```
 
 
-Initializes new  FontException  object.
+Initializes new  FontMergeException  object.
 
 **Parameters:**
 | Parameter | Type | Description |
