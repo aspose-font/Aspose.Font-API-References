@@ -1,0 +1,54 @@
+---
+title: "System::Text::StringBuilder::ToString método"
+linktitle: "ToString"
+second_title: "Aspose.Font para C++"
+description: "System::Text::StringBuilder::ToString método. Obtiene la cadena actualmente contenida en el builder en C++."
+type: docs
+weight: 1800
+url: /es/cpp/system.text/stringbuilder/tostring/
+---
+## StringBuilder::ToString() const method
+
+
+Obtiene la cadena actualmente contenida en el constructor.
+
+```cpp
+String System::Text::StringBuilder::ToString() const override
+```
+
+
+### ReturnValue
+
+[String](../../../system/string/) representation of builder's data.
+
+## Ver también
+
+* Class [String](../../../system/string/)
+* Class [StringBuilder](../)
+* Namespace [System::Text](../../)
+* Library [Aspose.Font for C++](../../../)
+## StringBuilder::ToString(int, int) const method
+
+
+Obtiene la subcadena actualmente contenida en el constructor.
+
+```cpp
+String System::Text::StringBuilder::ToString(int startIndex, int length) const
+```
+
+
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| startIndex | int | Índice inicial del rango de extracción. |
+| longitud | int | Número de caracteres a extraer. |
+
+### ReturnValue
+
+[String](../../../system/string/) representation of builder's data subrange.
+
+## Ver también
+
+* Class [String](../../../system/string/)
+* Class [StringBuilder](../)
+* Namespace [System::Text](../../)
+* Library [Aspose.Font for C++](../../../)

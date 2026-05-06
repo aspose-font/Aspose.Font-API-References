@@ -1,0 +1,29 @@
+---
+title: "Constructor System::Drawing::Imaging::FrameDimension::FrameDimension"
+linktitle: "FrameDimension"
+second_title: "Aspose.Font para C++"
+description: "Constructor System::Drawing::Imaging::FrameDimension::FrameDimension. Construye un nuevo objeto FrameDimension y lo inicializa con el GUID especificado en C++."
+type: docs
+weight: 100
+url: /es/cpp/system.drawing.imaging/framedimension/framedimension/
+---
+## FrameDimension::FrameDimension constructor
+
+
+Construye un nuevo objeto [FrameDimension](../) y lo inicializa con el GUID especificado.
+
+```cpp
+System::Drawing::Imaging::FrameDimension::FrameDimension(const System::Guid &guid)
+```
+
+
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| guid | const System::Guid\& | Un GUID que se asociará con el objeto que se está creando |
+
+## Ver también
+
+* Class [Guid](../../../system/guid/)
+* Class [FrameDimension](../)
+* Namespace [System::Drawing::Imaging](../../)
+* Library [Aspose.Font for C++](../../../)

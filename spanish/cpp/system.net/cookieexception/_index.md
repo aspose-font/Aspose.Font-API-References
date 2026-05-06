@@ -1,0 +1,22 @@
+---
+title: "System::Net::CookieException typedef"
+linktitle: "CookieException"
+second_title: "Aspose.Font para C++"
+description: "Cómo usar el typedef System::Net::CookieException en C++."
+type: docs
+weight: 5200
+url: /es/cpp/system.net/cookieexception/
+---
+## CookieException typedef
+
+
+
+
+```cpp
+using System::Net::CookieException =  System::ExceptionWrapper<Details_CookieException>
+```
+
+## Ver también
+
+* Namespace [System::Net](../)
+* Library [Aspose.Font for C++](../../)

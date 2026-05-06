@@ -1,0 +1,29 @@
+---
+title: "Método System::Security::Cryptography::X509Certificates::X509Certificate::GetKeyAlgorithmParameters"
+linktitle: "GetKeyAlgorithmParameters"
+second_title: "Aspose.Font para C++"
+description: "Método System::Security::Cryptography::X509Certificates::X509Certificate::GetKeyAlgorithmParameters. Obtiene información de la clave del certificado actual como una matriz de bytes en C++."
+type: docs
+weight: 1600
+url: /es/cpp/system.security.cryptography.x509certificates/x509certificate/getkeyalgorithmparameters/
+---
+## X509Certificate::GetKeyAlgorithmParameters method
+
+
+Obtiene la información de la clave del certificado actual como una matriz de bytes.
+
+```cpp
+virtual ByteArrayPtr System::Security::Cryptography::X509Certificates::X509Certificate::GetKeyAlgorithmParameters() const
+```
+
+
+### ReturnValue
+
+La información de la clave.
+
+## Ver también
+
+* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
+* Class [X509Certificate](../)
+* Namespace [System::Security::Cryptography::X509Certificates](../../)
+* Library [Aspose.Font for C++](../../../)

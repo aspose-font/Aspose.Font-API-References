@@ -1,0 +1,30 @@
+---
+title: "Método System::Xml::XmlNodeReader::get_SchemaInfo"
+linktitle: "get_SchemaInfo"
+second_title: "Aspose.Font para C++"
+description: "Método System::Xml::XmlNodeReader::get_SchemaInfo. Devuelve la información del esquema que ha sido asignada al nodo actual en C++."
+type: docs
+weight: 2000
+url: /es/cpp/system.xml/xmlnodereader/get_schemainfo/
+---
+## XmlNodeReader::get_SchemaInfo method
+
+
+Devuelve la información del esquema que se ha asignado al nodo actual.
+
+```cpp
+SharedPtr<Schema::IXmlSchemaInfo> System::Xml::XmlNodeReader::get_SchemaInfo() override
+```
+
+
+### ReturnValue
+
+Un objeto IXmlSchemaInfo que contiene la información del esquema para el nodo actual.
+
+## Ver también
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IXmlSchemaInfo](../../../system.xml.schema/ixmlschemainfo/)
+* Class [XmlNodeReader](../)
+* Namespace [System::Xml](../../)
+* Library [Aspose.Font for C++](../../../)

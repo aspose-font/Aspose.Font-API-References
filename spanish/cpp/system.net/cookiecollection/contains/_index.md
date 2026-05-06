@@ -1,0 +1,34 @@
+---
+title: "Método System::Net::CookieCollection::Contains"
+linktitle: "Contains"
+second_title: "Aspose.Font para C++"
+description: "Método System::Net::CookieCollection::Contains. Verifica si la colección contiene la cookie especificada en C++."
+type: docs
+weight: 400
+url: /es/cpp/system.net/cookiecollection/contains/
+---
+## CookieCollection::Contains method
+
+
+Comprueba si la colección contiene la cookie especificada.
+
+```cpp
+bool System::Net::CookieCollection::Contains(const System::SharedPtr<Cookie> &cookie) const override
+```
+
+
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| cookie | const System::SharedPtr\<Cookie\>\& | La cookie a comprobar. |
+
+### ReturnValue
+
+True cuando la colección contiene la cookie especificada, de lo contrario false.
+
+## Ver también
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Cookie](../../cookie/)
+* Class [CookieCollection](../)
+* Namespace [System::Net](../../)
+* Library [Aspose.Font for C++](../../../)

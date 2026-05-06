@@ -1,0 +1,35 @@
+---
+title: "enumeración System::Security::Cryptography::X509Certificates::X509ContentType"
+linktitle: "X509ContentType"
+second_title: "Aspose.Font para C++"
+description: "enumeración System::Security::Cryptography::X509Certificates::X509ContentType. Formato del certificado X.509 en C++."
+type: docs
+weight: 1900
+url: /es/cpp/system.security.cryptography.x509certificates/x509contenttype/
+---
+## X509ContentType enum
+
+
+Formato del certificado X.509.
+
+```cpp
+enum class X509ContentType
+```
+
+### Valores
+
+| Nombre | Valor | Descripción |
+| --- | --- | --- |
+| Desconocido | 0 | Certificado desconocido. |
+| Cert | 1 | [Single](../../system/single/) certificado. |
+| SerializedCert | 2 | Certificado único serializado. |
+| Pkcs12 | 3 | Certificado con formato PKCS #12. |
+| Pfx | 3 | Certificado con formato PFX. |
+| SerializedStore | 4 | Almacén de certificado serializado. |
+| Pkcs7 | 5 | Certificado PKCS #7 certificado. |
+| Authenticode | 6 | Certificado Authenticode X.509. |
+
+## Ver también
+
+* Namespace [System::Security::Cryptography::X509Certificates](../)
+* Library [Aspose.Font for C++](../../)

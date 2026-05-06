@@ -1,0 +1,33 @@
+---
+title: "Método System::Threading::CancellationToken::get_CanBeCanceled"
+linktitle: "get_CanBeCanceled"
+second_title: "Aspose.Font para C++"
+description: "Método System::Threading::CancellationToken::get_CanBeCanceled. Obtiene si este token puede estar en estado cancelado en C++."
+type: docs
+weight: 200
+url: /es/cpp/system.threading/cancellationtoken/get_canbecanceled/
+---
+## CancellationToken::get_CanBeCanceled method
+
+
+Obtiene si este token puede estar en estado cancelado.
+
+```cpp
+bool System::Threading::CancellationToken::get_CanBeCanceled() const
+```
+
+
+### ReturnValue
+
+true si este token puede estar en estado cancelado; de lo contrario, false.
+## Observaciones
+
+
+
+Los tokens creados a partir de [CancellationTokenSource](../../cancellationtokensource/) devolverán true, mientras que el token None siempre devolverá false.
+
+## Ver también
+
+* Class [CancellationToken](../)
+* Namespace [System::Threading](../../)
+* Library [Aspose.Font for C++](../../../)

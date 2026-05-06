@@ -1,0 +1,28 @@
+---
+title: "Método System::Xml::XmlReader::get_CanResolveEntity"
+linktitle: "get_CanResolveEntity"
+second_title: "Aspose.Font para C++"
+description: "Método System::Xml::XmlReader::get_CanResolveEntity. Devuelve un valor que indica si este lector puede analizar y resolver entidades en C++."
+type: docs
+weight: 700
+url: /es/cpp/system.xml/xmlreader/get_canresolveentity/
+---
+## XmlReader::get_CanResolveEntity method
+
+
+Devuelve un valor que indica si este lector puede analizar y resolver entidades.
+
+```cpp
+virtual bool System::Xml::XmlReader::get_CanResolveEntity()
+```
+
+
+### ReturnValue
+
+**true** if the reader can parse and resolve entities; otherwise, **false**.
+
+## Ver también
+
+* Class [XmlReader](../)
+* Namespace [System::Xml](../../)
+* Library [Aspose.Font for C++](../../../)

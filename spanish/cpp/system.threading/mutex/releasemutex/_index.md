@@ -1,0 +1,23 @@
+---
+title: "Método System::Threading::Mutex::ReleaseMutex"
+linktitle: "ReleaseMutex"
+second_title: "Aspose.Font para C++"
+description: "Método System::Threading::Mutex::ReleaseMutex. Libera el mutex en C++."
+type: docs
+weight: 200
+url: /es/cpp/system.threading/mutex/releasemutex/
+---
+## Mutex::ReleaseMutex method
+
+
+Libera el mutex.
+
+```cpp
+void System::Threading::Mutex::ReleaseMutex()
+```
+
+## Ver también
+
+* Class [Mutex](../)
+* Namespace [System::Threading](../../)
+* Library [Aspose.Font for C++](../../../)

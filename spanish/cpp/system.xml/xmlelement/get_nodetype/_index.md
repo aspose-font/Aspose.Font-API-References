@@ -1,0 +1,29 @@
+---
+title: "Método System::Xml::XmlElement::get_NodeType"
+linktitle: "get_NodeType"
+second_title: "Aspose.Font para C++"
+description: "Método System::Xml::XmlElement::get_NodeType. Devuelve el tipo del nodo actual en C++."
+type: docs
+weight: 900
+url: /es/cpp/system.xml/xmlelement/get_nodetype/
+---
+## XmlElement::get_NodeType method
+
+
+Devuelve el tipo del nodo actual.
+
+```cpp
+XmlNodeType System::Xml::XmlElement::get_NodeType() override
+```
+
+
+### ReturnValue
+
+El tipo de nodo. Para nodos [XmlElement](../), este valor es [XmlNodeType::Element](../../xmlnodetype/).
+
+## Ver también
+
+* Enum [XmlNodeType](../../xmlnodetype/)
+* Class [XmlElement](../)
+* Namespace [System::Xml](../../)
+* Library [Aspose.Font for C++](../../../)

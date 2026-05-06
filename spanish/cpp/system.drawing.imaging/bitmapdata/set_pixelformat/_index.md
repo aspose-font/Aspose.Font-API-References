@@ -1,0 +1,29 @@
+---
+title: "Método System::Drawing::Imaging::BitmapData::set_PixelFormat"
+linktitle: "set_PixelFormat"
+second_title: "Aspose.Font para C++"
+description: "Método System::Drawing::Imaging::BitmapData::set_PixelFormat. Establece el formato de píxel de la imagen de mapa de bits en C++."
+type: docs
+weight: 700
+url: /es/cpp/system.drawing.imaging/bitmapdata/set_pixelformat/
+---
+## BitmapData::set_PixelFormat method
+
+
+Establece el formato de píxel de la imagen bitmap.
+
+```cpp
+void System::Drawing::Imaging::BitmapData::set_PixelFormat(PixelFormat value)
+```
+
+
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| valor | PixelFormat | El valor a establecer |
+
+## Ver también
+
+* Enum [PixelFormat](../../pixelformat/)
+* Class [BitmapData](../)
+* Namespace [System::Drawing::Imaging](../../)
+* Library [Aspose.Font for C++](../../../)

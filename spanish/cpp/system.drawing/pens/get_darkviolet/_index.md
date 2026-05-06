@@ -1,0 +1,25 @@
+---
+title: "Método System::Drawing::Pens::get_DarkViolet"
+linktitle: "get_DarkViolet"
+second_title: "Aspose.Font para C++"
+description: "Método System::Drawing::Pens::get_DarkViolet. Devuelve un objeto Pen con un ancho de 1 y cuyo color ARGB en notación hexadecimal tiene un valor de #FF9400D3 en C++."
+type: docs
+weight: 3800
+url: /es/cpp/system.drawing/pens/get_darkviolet/
+---
+## Pens::get_DarkViolet method
+
+
+Devuelve un objeto [Pen](../../pen/) con un ancho de 1 y cuyo color ARGB en notación hexadecimal tiene un valor de #FF9400D3.
+
+```cpp
+static SharedPtr<Pen> System::Drawing::Pens::get_DarkViolet()
+```
+
+## Ver también
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Pen](../../pen/)
+* Class [Pens](../)
+* Namespace [System::Drawing](../../)
+* Library [Aspose.Font for C++](../../../)

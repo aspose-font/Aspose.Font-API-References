@@ -1,0 +1,24 @@
+---
+title: "Método System::Globalization::HebrewCalendar::get_MinSupportedDateTime"
+linktitle: "get_MinSupportedDateTime"
+second_title: "Aspose.Font para C++"
+description: "Método System::Globalization::HebrewCalendar::get_MinSupportedDateTime. Punto de tiempo mínimo que es compatible con el calendario en C++."
+type: docs
+weight: 600
+url: /es/cpp/system.globalization/hebrewcalendar/get_minsupporteddatetime/
+---
+## HebrewCalendar::get_MinSupportedDateTime method
+
+
+Punto mínimo en el tiempo que admite el calendario.
+
+```cpp
+DateTime System::Globalization::HebrewCalendar::get_MinSupportedDateTime() const override
+```
+
+## Ver también
+
+* Class [DateTime](../../../system/datetime/)
+* Class [HebrewCalendar](../)
+* Namespace [System::Globalization](../../)
+* Library [Aspose.Font for C++](../../../)

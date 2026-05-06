@@ -1,0 +1,30 @@
+---
+title: "Método System::Xml::XmlDocument::get_OwnerDocument"
+linktitle: "get_OwnerDocument"
+second_title: "Aspose.Font para C++"
+description: "Método System::Xml::XmlDocument::get_OwnerDocument. Devuelve el XmlDocument al que pertenece el nodo actual en C++."
+type: docs
+weight: 2700
+url: /es/cpp/system.xml/xmldocument/get_ownerdocument/
+---
+## XmlDocument::get_OwnerDocument method
+
+
+Devuelve el [XmlDocument](../) al que pertenece el nodo actual.
+
+```cpp
+SharedPtr<XmlDocument> System::Xml::XmlDocument::get_OwnerDocument() override
+```
+
+
+### ReturnValue
+
+Para nodos [XmlDocument](../) ([XmlDocument::get_NodeType](../get_nodetype/) es igual a [XmlNodeType::Document](../../xmlnodetype/)), este método siempre devuelve **nullptr**.
+
+## Ver también
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [XmlDocument](../)
+* Class [XmlDocument](../)
+* Namespace [System::Xml](../../)
+* Library [Aspose.Font for C++](../../../)

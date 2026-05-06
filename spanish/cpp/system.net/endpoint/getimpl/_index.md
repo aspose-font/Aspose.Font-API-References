@@ -1,0 +1,29 @@
+---
+title: "Método System::Net::EndPoint::GetImpl"
+linktitle: "GetImpl"
+second_title: "Aspose.Font para C++"
+description: "Método System::Net::EndPoint::GetImpl. Devuelve un puntero a la implementación en C++."
+type: docs
+weight: 300
+url: /es/cpp/system.net/endpoint/getimpl/
+---
+## EndPoint::GetImpl method
+
+
+Devuelve un puntero a la implementación.
+
+```cpp
+virtual ImplPtr System::Net::EndPoint::GetImpl() const =0
+```
+
+
+### ReturnValue
+
+Un puntero a la implementación.
+
+## Ver también
+
+* Typedef [ImplPtr](../implptr/)
+* Class [EndPoint](../)
+* Namespace [System::Net](../../)
+* Library [Aspose.Font for C++](../../../)

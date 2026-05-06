@@ -1,0 +1,33 @@
+---
+title: "Método ReadOnly de System::Globalization::TextInfo"
+linktitle: "ReadOnly"
+second_title: "Aspose.Font para C++"
+description: "Método ReadOnly de System::Globalization::TextInfo. Obtiene una versión de solo lectura de la cultura en C++."
+type: docs
+weight: 2000
+url: /es/cpp/system.globalization/textinfo/readonly/
+---
+## TextInfo::ReadOnly method
+
+
+Obtiene una versión de solo lectura de la cultura.
+
+```cpp
+static TextInfoPtr System::Globalization::TextInfo::ReadOnly(const TextInfoPtr &text_info)
+```
+
+
+| Parámetro | Tipo | Descripción |
+| --- | --- | --- |
+| text_info | const TextInfoPtr\& | [TextInfo](../) para envolver como solo lectura. |
+
+### ReturnValue
+
+Si **text_info** es de solo lectura, devuelve el mismo objeto; de lo contrario, crea una copia de solo lectura.
+
+## Ver también
+
+* Typedef [TextInfoPtr](../../textinfoptr/)
+* Class [TextInfo](../)
+* Namespace [System::Globalization](../../)
+* Library [Aspose.Font for C++](../../../)
