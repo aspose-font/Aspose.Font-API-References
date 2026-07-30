@@ -1,9 +1,9 @@
 ---
 title: "Glyph Font functions"
-second_title: Aspose.Font for JavaScript via C++
+second_title: Aspose.Font for Node.js via C++
 description:  "Functions for working with Glyphs of Font files"
 type: docs
-url: /javascript-cpp/glyph/
+url: /nodejs-cpp/glyph/
 ---
 
 ## Glyph Font functions
@@ -19,12 +19,3 @@ url: /javascript-cpp/glyph/
 
 Functions for working with Font Glyphs.
 
-```js
-/* Web Worker*/
-const AsposeFontWebWorker = new Worker("AsposeFontforJS.js");
-```
-or
-```html
-<!-- Load and initiate Aspose.Font for JavaScript via C++ -->
-<script type="text/javascript" async src="AsposeFontforJS.js"></script>
-```

@@ -1,16 +1,16 @@
 ---
-title: "FontGetFontMetrics"
+title: "AsposeFontGetGlyphNames"
 second_title: Aspose.Font for JavaScript via C++
 description: "Get info (metadata) from a Font-file."
 type: docs
-url: /javascript-cpp/glyph/asposefontgetmetrics/
+url: /javascript-cpp/glyph/asposefontgetglyphnames/
 ---
-## AsposeFontGetMetrics function
+## AsposeFontGetGlyphNames function
 
-_Get glyph count of font._
+_Get glyph names of font._
 
 ```js
-function AsposeFontGetMetrics(
+function AsposeFontGetGlyphNames(
     fileBlob,
     fileName
 )
@@ -28,14 +28,7 @@ JSON object
 | ----- | ----------- |
 | errorCode | code error (0 no error)
 | errorText | text error ("" no error)
-| metrics | JSON object
-| * ascent |
-| * descent |
-| * lineGap |
-| * advanceWidthMax |
-| * minLeftSideBearing |
-| * minRightSideBearing |
-| * xMaxExtent |
+| glyphNames | names of glyphs
 
 ### Examples
 
@@ -49,15 +42,15 @@ JSON object
     evt.data == "ready"
       ? "loaded!"
       : evt.data.json.errorCode == 0
-      ? JSON.stringify(json).replace('"errorCode":0,"errorText":"",','')
+      ? "Glyph names: " + evt.data.json.glyphNames
       : `Error: ${evt.data.json.errorText}`;
 
   /*Event handler*/
-  const ffileFontGetMetrics = e => {
+  const ffileFontGetGlyphNames = e => {
     const file_reader = new FileReader();
     file_reader.onload = event => {
-      /*Get metrics of font - Ask Web Worker*/
-      AsposeFontWebWorker.postMessage({ "operation": 'AsposeFontGetMetrics', "params": [event.target.result, e.target.files[0].name] }, [event.target.result]);
+      /*Get glyph names of font - Ask Web Worker*/
+      AsposeFontWebWorker.postMessage({ "operation": 'AsposeFontGetGlyphNames', "params": [event.target.result, e.target.files[0].name] }, [event.target.result]);
     };
     file_reader.readAsArrayBuffer(e.target.files[0]);
   };
@@ -65,12 +58,12 @@ JSON object
 
 **Simple example**:
 ```js
-  var ffileFontGetGlyphCount = function (e) {
+  var ffileFontGetGlyphNames = function (e) {
     const file_reader = new FileReader();
     file_reader.onload = (event) => {
-      const json = AsposeFontGetMetrics(event.target.result, e.target.files[0].name);
+      const json = AsposeFontGetGlyphNames(event.target.result, e.target.files[0].name);
       if (json.errorCode == 0) {
-        document.getElementById('output').textContent = "Glyph count: " + json.glyphCount;
+        document.getElementById('output').textContent = "Glyph names: " + json.glyphNames.join(";");
       }
       else document.getElementById('output').textContent = json.errorText;
     }
