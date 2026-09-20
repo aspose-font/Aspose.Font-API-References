@@ -45,10 +45,7 @@ AsposeFont().then(AsposeFontModule => {
 
     //AsposeFontGetBasicProperties - Returns basic font properties: family name, style, and font type.
     const json = AsposeFontModule.AsposeFontGetBasicProperties(font_file);
-    console.log("AsposeFontGetBasicProperties => %O",  json.errorCode == 0 ? "Family name : "  + json.familyName + 
-                                                                + "\nStyle: " + json.style
-                                                                + "\nFont type: " + json.fontType;
-                                                                : json.errorText);
+    console.log("AsposeFontGetBasicProperties => %O",  json.errorCode == 0 ? "Family name : "  + json.familyName + "; Style: " + json.style + "; Font type: " + json.fontType : json.errorText);
 
 });
 ```
@@ -64,8 +61,5 @@ const AsposeFontModule = await AsposeFont();
 
 //AsposeFontGetBasicProperties - Returns basic font properties: family name, style, and font type.
 json = AsposeFontModule.AsposeFontGetBasicProperties(font_file);
-console.log("AsposeFontGetBasicProperties => %O",  json.errorCode == 0 ? "Family name : "  + json.familyName + 
-                                                                       + "\nStyle: " + json.style
-                                                                       + "\nFont type: " + json.fontType;
-                                                                       : json.errorText);
+console.log("AsposeFontGetBasicProperties => %O",  json.errorCode == 0 ? "Family name : "  + json.familyName + "; Style: " + json.style + "; Font type: " + json.fontType : json.errorText);
 ```
