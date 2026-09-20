@@ -12,6 +12,7 @@ url: /javascript-cpp/metadata/
 | -------------- | -------------- |
 | [AsposeFontGetInfo](./asposefontgetinfo/) | Get info (metadata) from a Font-file. |
 | [AsposeFontSetInfo](./asposefontsetinfo/) | Set info (metadata) into a Font-file. |
+| [AsposeFontGetBasicProperties](./asposefontgetbasicproperties/) | Returns basic font properties: family name, style, and font type. |
 
 ## Detailed Description
 
