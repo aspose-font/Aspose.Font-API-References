@@ -31,6 +31,7 @@ is_root: true
 | -------- | ----------- |
 | [AsposeFontGetInfo](./metadata/asposefontgetinfo/) | Get info (metadata) from a Font-file. |
 | [AsposeFontSetInfo](./metadata/asposefontsetinfo/) | Set info (metadata) in a Font-file. |
+| [AsposeFontGetBasicProperties](./metadata/asposefontgetbasicproperties/) | Returns basic font properties: family name, style, and font type. |
 
 
 ## Glyph Font functions
